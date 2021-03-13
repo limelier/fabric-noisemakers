@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "noisemakers",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Noisemakers",
+  "description": "Make some sounds and mess with your friends.",
   "authors": [
-    "Me!"
+    "limelier"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/limelier",
+    "sources": "https://github.com/limelier/fabric-noisemakers"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/noisemakers/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "net.limelier.noisemakers.NoisemakersKt::init"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.8.7",
